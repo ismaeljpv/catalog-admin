@@ -1,0 +1,28 @@
+GET http://localhost:8000/api/products
+
+###
+POST http://localhost:8000/api/products
+Content-Type: application/json
+
+{
+    "title": "Tacos",
+    "image": "image for tacos"
+}
+
+###
+GET http://localhost:8000/api/products/1
+
+###
+PUT http://localhost:8000/api/products/7
+Content-Type: application/json
+
+{
+    "title": "New Cupcake",
+    "image": "image for cupcake"
+}
+
+###
+DELETE http://localhost:8000/api/products/7
+
+###
+GET http://localhost:8000/api/user
